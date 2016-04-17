@@ -1,0 +1,12 @@
+A: 
+	g++ -o questionA questionA.cpp
+B: 
+	result:
+	time		sort()(s)		insert_sort()(s)
+					0						0
+					0						1.3
+					0.04				 128.6
+					0.52	 		  11542.0
+	explanation:
+	sort所需時間與nlogn成正比，當n增加時，所需時間增加的幅度較小；
+	insert_sort所需時間與n^2成正比， 當n增加時，所需時間增加的幅度較大。
